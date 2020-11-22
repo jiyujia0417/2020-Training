@@ -1,0 +1,64 @@
+
+.App{
+    background-color: black;
+    position: relative;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    /* background-color: black; */
+}
+/*进入前*/
+.App-img-one{
+   /* transform: rotate(180deg);
+   position: absolute;
+   top: 5px;
+    right: 5px; */
+    /* border: 2px red solid; */
+    transform:rotate(180deg)
+}
+
+.App-img-two{
+   position: absolute;
+   bottom: 5px;
+   left: 5px;
+}
+/* 上面是图片设置，下面是文本 */
+.App-text-one{
+    font-size: 48px;
+    text-align: left;
+    font-family: 方正汉真广标-标准;
+}
+
+.App-text-two{
+    color: rgba(152, 154, 176, 100);
+    font-size: 16px;
+    text-align: left;
+    font-family: 方正汉真广标-标准;
+}
+
+.App-button{
+    border-radius: 50px;
+    border: none;
+}
+
+/* 下面是登录页的样式 */
+.login-text-one{
+    font-size: 72px;
+    font-family: 方正汉真广标-标准;
+}
+
+.login-button{
+    border-radius: 50px;
+    border: none;
+    box-shadow: 5px 10px 8px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 100);
+}
+.login-div{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.login-img-two{
+    transform:rotate(180deg)
+}
